@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!NoMoreAdd</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div id="root">
+        <div class="add-to">
+            <div id="add-to-content">
+                <h1>!NoMoreAdd</h1>
+                <h2>converse no whatsapp sem adicionar</h2>
+                <p style="font-size: small;">(por enquanto apenas DDI +55)</p>
+                <div class="input-area">
+                    <input required="true" id="contact-name" type="text" placeholder="nome">
+                    <input required="true" id="contact-number" type="tel" placeholder="número">
+                    <a id="send" href="#">enviar para a lista</a>
+                    <p id="error_warning" class="warning"></p>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div id="answer-link">
+                <div class="contacts-container">
+                    <p class="list-title">Contatos</p>
+                    <div id="cta-container">
+                    <ul id="list">
+
+                    </ul>
+                    <a href="" id="delete">apagar lista</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./controller/scripts/Contact.js"></script>
+    <script src="./controller/scripts/Utilities.js"></script>
+    <script src="./index.js"></script>
+</body>.
+</html>
